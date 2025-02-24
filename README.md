@@ -1,9 +1,9 @@
 ## Hi there 👋
 
 ### Integrantes:
- - Pau Morente Alcober
- - Jorge Gil Perez
- - Xinshen Xiang Chen
+ - Pau Morente 
+ - Jorge Gil 
+ - Xinshen Xiang 
  - Anouar El Haddaddi
  - Xiaolei Xu
  - Carlos Gómez
