@@ -1,5 +1,16 @@
 ## Hi there 👋
 
+### Integrantes:
+ - Pau Morente Alcober
+ - Jorge Gil Perez
+ - Xinshen Xiang Chen
+ - Anouar El Haddaddi
+ - Xiaolei Xu
+ - Carlos Gómez
+ - Bilal El Moussaoui
+
+
+
 <!--
 **iterbee/iterbee** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 
