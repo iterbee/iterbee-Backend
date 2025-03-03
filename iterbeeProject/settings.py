@@ -51,7 +51,7 @@ MIDDLEWARE = [
     "django.middleware.clickjacking.XFrameOptionsMiddleware",
 ]
 
-ROOT_URLCONF = "location_notez.urls"
+ROOT_URLCONF = "iterbee.urls"
 
 TEMPLATES = [
     {
@@ -69,7 +69,7 @@ TEMPLATES = [
     },
 ]
 
-WSGI_APPLICATION = "location_notez.wsgi.application"
+WSGI_APPLICATION = "iterbee.wsgi.application"
 
 
 # Database
