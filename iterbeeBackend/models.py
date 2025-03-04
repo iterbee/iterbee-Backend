@@ -14,5 +14,5 @@ class CulturalPoint(models.Model):
         return self.location_name
 
 
-#test1 = CulturalPoint(coord="13289", location_name="bcn", info="buenos dias")
-#test1.save()
+test1 = CulturalPoint(coord="13289", location_name="bcn", info="buenos dias")
+test1.save()

@@ -1,5 +1,5 @@
 """
-URL configuration for iterbee project.
+URL configuration for iterbeeProject project.
 
 The `urlpatterns` list routes URLs to views. For more information please see:
     https://docs.djangoproject.com/en/5.1/topics/http/urls/
@@ -21,13 +21,16 @@ from django.urls import include, path
 from rest_framework import routers
 from rest_framework.routers import DefaultRouter
 
-from iterbeeBackend import views
+from iterbeeBackend import views #gives error in pycharm for some reason
 
 router = routers.DefaultRouter()
-router.register(r'iterbeeBackend', views.CulturalPointViewSet)
+router.register(r'api', views.CulturalPointViewSet)
 
 urlpatterns = [
     path("admin/", admin.site.urls),
+
+    #add authentification to access API I think this is
+    #path('api-auth/', include('rest_framework.urls', namespace='rest_framework'))
 ]
 
 urlpatterns += router.urls
